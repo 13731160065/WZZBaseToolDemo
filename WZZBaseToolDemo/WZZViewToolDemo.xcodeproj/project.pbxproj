@@ -1,0 +1,937 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EA58DA21C37721005AEC5C /* WZZTmpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA58D921C37721005AEC5C /* WZZTmpView.m */; };
+		04EA58DC21C3772E005AEC5C /* WZZTmpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EA58DB21C3772E005AEC5C /* WZZTmpView.xib */; };
+		528E85E122CB8D380012B807 /* WZZBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E85E022CB8D380012B807 /* WZZBaseTool.m */; };
+		52A0119F228E4AEC001BCB47 /* UIView+WZZLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0118C228E4AEC001BCB47 /* UIView+WZZLoading.m */; };
+		52A011A0228E4AEC001BCB47 /* WZZBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0118F228E4AEC001BCB47 /* WZZBaseButton.m */; };
+		52A011A1228E4AEC001BCB47 /* WZZBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A01190228E4AEC001BCB47 /* WZZBaseView.m */; };
+		52A011A2228E4AEC001BCB47 /* WZZBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A01191228E4AEC001BCB47 /* WZZBaseLabel.m */; };
+		52A011A3228E4AEC001BCB47 /* WZZSuperXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A01193228E4AEC001BCB47 /* WZZSuperXibView.m */; };
+		52A011A4228E4AEC001BCB47 /* WZZBaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A01197228E4AEC001BCB47 /* WZZBaseImageView.m */; };
+		52A011A5228E4AEC001BCB47 /* UIView+WZZAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0119B228E4AEC001BCB47 /* UIView+WZZAnimation.m */; };
+		52A011A6228E4AEC001BCB47 /* UIView+WZZSubviewAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0119E228E4AEC001BCB47 /* UIView+WZZSubviewAction.m */; };
+		71012D2C20DE12C900B4EE8C /* HttpHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 71012D2B20DE12C900B4EE8C /* HttpHandler.m */; };
+		71012D2F20DE12F200B4EE8C /* HttpHandler+WZZExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 71012D2E20DE12F200B4EE8C /* HttpHandler+WZZExt.m */; };
+		71012D3320DE21A100B4EE8C /* WZZShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71012D3220DE21A100B4EE8C /* WZZShareManager.m */; };
+		7165FAA6216CA3B100AFD180 /* SafeAreaDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7165FAA4216CA3B100AFD180 /* SafeAreaDemoVC.m */; };
+		7165FAA7216CA3B100AFD180 /* SafeAreaDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7165FAA5216CA3B100AFD180 /* SafeAreaDemoVC.xib */; };
+		719232EC20A81DE500735249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719232EB20A81DE500735249 /* Assets.xcassets */; };
+		719232FC20A81DE500735249 /* WZZViewToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 719232FB20A81DE500735249 /* WZZViewToolDemoTests.m */; };
+		7192330720A81DE500735249 /* WZZViewToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7192330620A81DE500735249 /* WZZViewToolDemoUITests.m */; };
+		7192331D20A81FDE00735249 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7192331620A81FDD00735249 /* main.m */; };
+		7192332320A8205000735249 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7192332220A8205000735249 /* AppDelegate.m */; };
+		7192333420A8236C00735249 /* WZZBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7192333220A8236C00735249 /* WZZBaseVC.m */; };
+		7192333820A8239100735249 /* WZZBaseNVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7192333720A8239100735249 /* WZZBaseNVC.m */; };
+		7192333B20A8251100735249 /* WZZPCHExtern.m in Sources */ = {isa = PBXBuildFile; fileRef = 7192333A20A8251100735249 /* WZZPCHExtern.m */; };
+		7198807820D1311900ABA2F1 /* WZZSingleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7198807720D1311900ABA2F1 /* WZZSingleManager.m */; };
+		7198807B20D1312800ABA2F1 /* WZZUserInfoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7198807A20D1312800ABA2F1 /* WZZUserInfoObject.m */; };
+		71A7E80520BD496D0069920C /* WZZBaseNVCItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A7E80420BD496D0069920C /* WZZBaseNVCItemView.m */; };
+		71B4B201213704A100D309BB /* WZZLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B4B200213704A100D309BB /* WZZLogView.m */; };
+		71B4B203213704AA00D309BB /* WZZLogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B4B202213704AA00D309BB /* WZZLogView.xib */; };
+		71BEE94A214226B700470421 /* WZZBaseNVCAutoItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BEE949214226B700470421 /* WZZBaseNVCAutoItemView.m */; };
+		71DB203A20A82FF900147BAE /* WZZTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DB203920A82FF900147BAE /* WZZTabbarVC.m */; };
+		71DCFAD120A949E200DF0FAB /* tmpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DCFACF20A949E200DF0FAB /* tmpViewController.m */; };
+		71DCFAD220A949E200DF0FAB /* tmpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71DCFAD020A949E200DF0FAB /* tmpViewController.xib */; };
+		71DD311D213784E500BCEB3C /* logMove@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71DD311B213784E400BCEB3C /* logMove@3x.png */; };
+		71DD311E213784E500BCEB3C /* logMove@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71DD311C213784E400BCEB3C /* logMove@2x.png */; };
+		71DD3122213789EE00BCEB3C /* NSString+WZZRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD3121213789EE00BCEB3C /* NSString+WZZRegular.m */; };
+		71F65AF32136FD5B0017788A /* WZZLogTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F65AF22136FD5B0017788A /* WZZLogTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		719232F820A81DE500735249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719232D720A81DE500735249 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719232DE20A81DE500735249;
+			remoteInfo = WZZViewToolDemo;
+		};
+		7192330320A81DE500735249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719232D720A81DE500735249 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719232DE20A81DE500735249;
+			remoteInfo = WZZViewToolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EA58D821C37721005AEC5C /* WZZTmpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZTmpView.h; sourceTree = "<group>"; };
+		04EA58D921C37721005AEC5C /* WZZTmpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZTmpView.m; sourceTree = "<group>"; };
+		04EA58DB21C3772E005AEC5C /* WZZTmpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WZZTmpView.xib; sourceTree = "<group>"; };
+		528E85DF22CB8D380012B807 /* WZZBaseTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZBaseTool.h; sourceTree = "<group>"; };
+		528E85E022CB8D380012B807 /* WZZBaseTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZBaseTool.m; sourceTree = "<group>"; };
+		52A0118C228E4AEC001BCB47 /* UIView+WZZLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZZLoading.m"; sourceTree = "<group>"; };
+		52A0118D228E4AEC001BCB47 /* UIView+WZZLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZZLoading.h"; sourceTree = "<group>"; };
+		52A0118F228E4AEC001BCB47 /* WZZBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseButton.m; sourceTree = "<group>"; };
+		52A01190228E4AEC001BCB47 /* WZZBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseView.m; sourceTree = "<group>"; };
+		52A01191228E4AEC001BCB47 /* WZZBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseLabel.m; sourceTree = "<group>"; };
+		52A01192228E4AEC001BCB47 /* WZZBaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseImageView.h; sourceTree = "<group>"; };
+		52A01193228E4AEC001BCB47 /* WZZSuperXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZSuperXibView.m; sourceTree = "<group>"; };
+		52A01194228E4AEC001BCB47 /* WZZBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseView.h; sourceTree = "<group>"; };
+		52A01195228E4AEC001BCB47 /* WZZBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseButton.h; sourceTree = "<group>"; };
+		52A01196228E4AEC001BCB47 /* WZZSuperXibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZSuperXibView.h; sourceTree = "<group>"; };
+		52A01197228E4AEC001BCB47 /* WZZBaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseImageView.m; sourceTree = "<group>"; };
+		52A01198228E4AEC001BCB47 /* WZZBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseLabel.h; sourceTree = "<group>"; };
+		52A0119A228E4AEC001BCB47 /* UIView+WZZAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZZAnimation.h"; sourceTree = "<group>"; };
+		52A0119B228E4AEC001BCB47 /* UIView+WZZAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZZAnimation.m"; sourceTree = "<group>"; };
+		52A0119D228E4AEC001BCB47 /* UIView+WZZSubviewAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZZSubviewAction.h"; sourceTree = "<group>"; };
+		52A0119E228E4AEC001BCB47 /* UIView+WZZSubviewAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZZSubviewAction.m"; sourceTree = "<group>"; };
+		71012D2A20DE12C900B4EE8C /* HttpHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpHandler.h; sourceTree = "<group>"; };
+		71012D2B20DE12C900B4EE8C /* HttpHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpHandler.m; sourceTree = "<group>"; };
+		71012D2D20DE12F200B4EE8C /* HttpHandler+WZZExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HttpHandler+WZZExt.h"; sourceTree = "<group>"; };
+		71012D2E20DE12F200B4EE8C /* HttpHandler+WZZExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HttpHandler+WZZExt.m"; sourceTree = "<group>"; };
+		71012D3120DE21A100B4EE8C /* WZZShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZShareManager.h; sourceTree = "<group>"; };
+		71012D3220DE21A100B4EE8C /* WZZShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZShareManager.m; sourceTree = "<group>"; };
+		7165FAA3216CA3B100AFD180 /* SafeAreaDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeAreaDemoVC.h; sourceTree = "<group>"; };
+		7165FAA4216CA3B100AFD180 /* SafeAreaDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeAreaDemoVC.m; sourceTree = "<group>"; };
+		7165FAA5216CA3B100AFD180 /* SafeAreaDemoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SafeAreaDemoVC.xib; sourceTree = "<group>"; };
+		719232DF20A81DE500735249 /* WZZViewToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZZViewToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		719232EB20A81DE500735249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		719232F720A81DE500735249 /* WZZViewToolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZZViewToolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		719232FB20A81DE500735249 /* WZZViewToolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZViewToolDemoTests.m; sourceTree = "<group>"; };
+		719232FD20A81DE500735249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7192330220A81DE500735249 /* WZZViewToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZZViewToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7192330620A81DE500735249 /* WZZViewToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZViewToolDemoUITests.m; sourceTree = "<group>"; };
+		7192330820A81DE500735249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7192331620A81FDD00735249 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7192331720A81FDD00735249 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7192332120A8205000735249 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7192332220A8205000735249 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7192332520A820F600735249 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7192332620A8210700735249 /* ImportHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportHeader.h; sourceTree = "<group>"; };
+		7192332720A8212100735249 /* DefineHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineHeader.h; sourceTree = "<group>"; };
+		7192333120A8236C00735249 /* WZZBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZBaseVC.h; sourceTree = "<group>"; };
+		7192333220A8236C00735249 /* WZZBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZBaseVC.m; sourceTree = "<group>"; };
+		7192333620A8239100735249 /* WZZBaseNVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZBaseNVC.h; sourceTree = "<group>"; };
+		7192333720A8239100735249 /* WZZBaseNVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZBaseNVC.m; sourceTree = "<group>"; };
+		7192333920A8251100735249 /* WZZPCHExtern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZPCHExtern.h; sourceTree = "<group>"; };
+		7192333A20A8251100735249 /* WZZPCHExtern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZPCHExtern.m; sourceTree = "<group>"; };
+		7198807620D1311900ABA2F1 /* WZZSingleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZSingleManager.h; sourceTree = "<group>"; };
+		7198807720D1311900ABA2F1 /* WZZSingleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZSingleManager.m; sourceTree = "<group>"; };
+		7198807920D1312800ABA2F1 /* WZZUserInfoObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZUserInfoObject.h; sourceTree = "<group>"; };
+		7198807A20D1312800ABA2F1 /* WZZUserInfoObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZUserInfoObject.m; sourceTree = "<group>"; };
+		71A7E80320BD496D0069920C /* WZZBaseNVCItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZBaseNVCItemView.h; sourceTree = "<group>"; };
+		71A7E80420BD496D0069920C /* WZZBaseNVCItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZBaseNVCItemView.m; sourceTree = "<group>"; };
+		71B4B1FF213704A100D309BB /* WZZLogView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZLogView.h; sourceTree = "<group>"; };
+		71B4B200213704A100D309BB /* WZZLogView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZLogView.m; sourceTree = "<group>"; };
+		71B4B202213704AA00D309BB /* WZZLogView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WZZLogView.xib; sourceTree = "<group>"; };
+		71BEE948214226B700470421 /* WZZBaseNVCAutoItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZBaseNVCAutoItemView.h; sourceTree = "<group>"; };
+		71BEE949214226B700470421 /* WZZBaseNVCAutoItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZBaseNVCAutoItemView.m; sourceTree = "<group>"; };
+		71DB203220A82DBD00147BAE /* LibReadme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LibReadme.md; sourceTree = "<group>"; };
+		71DB203320A82DF900147BAE /* ClassReadme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ClassReadme.md; sourceTree = "<group>"; };
+		71DB203420A82E2E00147BAE /* HeaderReadme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = HeaderReadme.md; sourceTree = "<group>"; };
+		71DB203620A82F1500147BAE /* AppDelegateReadme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AppDelegateReadme.md; sourceTree = "<group>"; };
+		71DB203720A82FCD00147BAE /* BaseClassReadme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BaseClassReadme.md; sourceTree = "<group>"; };
+		71DB203820A82FF900147BAE /* WZZTabbarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZTabbarVC.h; sourceTree = "<group>"; };
+		71DB203920A82FF900147BAE /* WZZTabbarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZTabbarVC.m; sourceTree = "<group>"; };
+		71DB203B20A8301000147BAE /* OtherReadme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = OtherReadme.md; sourceTree = "<group>"; };
+		71DB203C20A8302300147BAE /* ToolReadme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ToolReadme.md; sourceTree = "<group>"; };
+		71DCFACC20A93E6100DF0FAB /* WZZDefineTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZDefineTool.h; sourceTree = "<group>"; };
+		71DCFACE20A949E200DF0FAB /* tmpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tmpViewController.h; sourceTree = "<group>"; };
+		71DCFACF20A949E200DF0FAB /* tmpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tmpViewController.m; sourceTree = "<group>"; };
+		71DCFAD020A949E200DF0FAB /* tmpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tmpViewController.xib; sourceTree = "<group>"; };
+		71DD311B213784E400BCEB3C /* logMove@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logMove@3x.png"; sourceTree = "<group>"; };
+		71DD311C213784E400BCEB3C /* logMove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logMove@2x.png"; sourceTree = "<group>"; };
+		71DD3120213789EE00BCEB3C /* NSString+WZZRegular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WZZRegular.h"; sourceTree = "<group>"; };
+		71DD3121213789EE00BCEB3C /* NSString+WZZRegular.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WZZRegular.m"; sourceTree = "<group>"; };
+		71E269FA20B503830002B24A /* AttributeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributeHeader.h; sourceTree = "<group>"; };
+		71ED752A20CAAC90009B5CD5 /* ControlHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlHeader.h; sourceTree = "<group>"; };
+		71F65AF12136FD5B0017788A /* WZZLogTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZLogTool.h; sourceTree = "<group>"; };
+		71F65AF22136FD5B0017788A /* WZZLogTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZLogTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719232DC20A81DE500735249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719232F420A81DE500735249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719232FF20A81DE500735249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528E85DE22CB8D280012B807 /* BaseTool */ = {
+			isa = PBXGroup;
+			children = (
+				528E85DF22CB8D380012B807 /* WZZBaseTool.h */,
+				528E85E022CB8D380012B807 /* WZZBaseTool.m */,
+			);
+			path = BaseTool;
+			sourceTree = "<group>";
+		};
+		52A0118A228E4AEC001BCB47 /* WZZViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				528E85DE22CB8D280012B807 /* BaseTool */,
+				52A0118B228E4AEC001BCB47 /* Loading */,
+				52A0118E228E4AEC001BCB47 /* BaseView */,
+				52A01199228E4AEC001BCB47 /* Animation */,
+				52A0119C228E4AEC001BCB47 /* AOP */,
+			);
+			path = WZZViewTool;
+			sourceTree = "<group>";
+		};
+		52A0118B228E4AEC001BCB47 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				52A0118D228E4AEC001BCB47 /* UIView+WZZLoading.h */,
+				52A0118C228E4AEC001BCB47 /* UIView+WZZLoading.m */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		52A0118E228E4AEC001BCB47 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				52A01194228E4AEC001BCB47 /* WZZBaseView.h */,
+				52A01190228E4AEC001BCB47 /* WZZBaseView.m */,
+				52A01198228E4AEC001BCB47 /* WZZBaseLabel.h */,
+				52A01191228E4AEC001BCB47 /* WZZBaseLabel.m */,
+				52A01195228E4AEC001BCB47 /* WZZBaseButton.h */,
+				52A0118F228E4AEC001BCB47 /* WZZBaseButton.m */,
+				52A01192228E4AEC001BCB47 /* WZZBaseImageView.h */,
+				52A01197228E4AEC001BCB47 /* WZZBaseImageView.m */,
+				52A01196228E4AEC001BCB47 /* WZZSuperXibView.h */,
+				52A01193228E4AEC001BCB47 /* WZZSuperXibView.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		52A01199228E4AEC001BCB47 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				52A0119A228E4AEC001BCB47 /* UIView+WZZAnimation.h */,
+				52A0119B228E4AEC001BCB47 /* UIView+WZZAnimation.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		52A0119C228E4AEC001BCB47 /* AOP */ = {
+			isa = PBXGroup;
+			children = (
+				52A0119D228E4AEC001BCB47 /* UIView+WZZSubviewAction.h */,
+				52A0119E228E4AEC001BCB47 /* UIView+WZZSubviewAction.m */,
+			);
+			path = AOP;
+			sourceTree = "<group>";
+		};
+		71012D2920DE12B700B4EE8C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				71012D2A20DE12C900B4EE8C /* HttpHandler.h */,
+				71012D2B20DE12C900B4EE8C /* HttpHandler.m */,
+				71012D2D20DE12F200B4EE8C /* HttpHandler+WZZExt.h */,
+				71012D2E20DE12F200B4EE8C /* HttpHandler+WZZExt.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		71012D3020DE21A100B4EE8C /* ShareTool */ = {
+			isa = PBXGroup;
+			children = (
+				71012D3120DE21A100B4EE8C /* WZZShareManager.h */,
+				71012D3220DE21A100B4EE8C /* WZZShareManager.m */,
+			);
+			path = ShareTool;
+			sourceTree = "<group>";
+		};
+		719232D620A81DE500735249 = {
+			isa = PBXGroup;
+			children = (
+				52A0118A228E4AEC001BCB47 /* WZZViewTool */,
+				719232E120A81DE500735249 /* WZZViewToolDemo */,
+				719232FA20A81DE500735249 /* WZZViewToolDemoTests */,
+				7192330520A81DE500735249 /* WZZViewToolDemoUITests */,
+				719232E020A81DE500735249 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		719232E020A81DE500735249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719232DF20A81DE500735249 /* WZZViewToolDemo.app */,
+				719232F720A81DE500735249 /* WZZViewToolDemoTests.xctest */,
+				7192330220A81DE500735249 /* WZZViewToolDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719232E120A81DE500735249 /* WZZViewToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7192331820A81FDD00735249 /* BaseClass */,
+				7192331C20A81FDE00735249 /* Class */,
+				7192331B20A81FDE00735249 /* Libs */,
+				7192331520A81FDD00735249 /* Other */,
+				7192331420A81FDD00735249 /* Tools */,
+				719232EB20A81DE500735249 /* Assets.xcassets */,
+			);
+			path = WZZViewToolDemo;
+			sourceTree = "<group>";
+		};
+		719232FA20A81DE500735249 /* WZZViewToolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				719232FB20A81DE500735249 /* WZZViewToolDemoTests.m */,
+				719232FD20A81DE500735249 /* Info.plist */,
+			);
+			path = WZZViewToolDemoTests;
+			sourceTree = "<group>";
+		};
+		7192330520A81DE500735249 /* WZZViewToolDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7192330620A81DE500735249 /* WZZViewToolDemoUITests.m */,
+				7192330820A81DE500735249 /* Info.plist */,
+			);
+			path = WZZViewToolDemoUITests;
+			sourceTree = "<group>";
+		};
+		7192331420A81FDD00735249 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				71DB203C20A8302300147BAE /* ToolReadme.md */,
+				71DD311F2137899D00BCEB3C /* Categary */,
+				71F65AF02136FD370017788A /* LogTool */,
+				71012D3020DE21A100B4EE8C /* ShareTool */,
+				71012D2920DE12B700B4EE8C /* Network */,
+				7198807520D1310900ABA2F1 /* WZZSingleManager */,
+				7198807420D1310800ABA2F1 /* WZZUserInfoObject */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7192331520A81FDD00735249 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7192331620A81FDD00735249 /* main.m */,
+				7192331720A81FDD00735249 /* Info.plist */,
+				71DB203B20A8301000147BAE /* OtherReadme.md */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		7192331820A81FDD00735249 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				7192332820A8227C00735249 /* BaseVC */,
+				7192332020A8204F00735249 /* AppDelegate */,
+				7192332420A820EC00735249 /* Headers */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		7192331B20A81FDE00735249 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				71DB203220A82DBD00147BAE /* LibReadme.md */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		7192331C20A81FDE00735249 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				71DB203320A82DF900147BAE /* ClassReadme.md */,
+				71DCFACE20A949E200DF0FAB /* tmpViewController.h */,
+				71DCFACF20A949E200DF0FAB /* tmpViewController.m */,
+				71DCFAD020A949E200DF0FAB /* tmpViewController.xib */,
+				7165FAA3216CA3B100AFD180 /* SafeAreaDemoVC.h */,
+				7165FAA4216CA3B100AFD180 /* SafeAreaDemoVC.m */,
+				7165FAA5216CA3B100AFD180 /* SafeAreaDemoVC.xib */,
+				04EA58D821C37721005AEC5C /* WZZTmpView.h */,
+				04EA58D921C37721005AEC5C /* WZZTmpView.m */,
+				04EA58DB21C3772E005AEC5C /* WZZTmpView.xib */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		7192332020A8204F00735249 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				71DB203620A82F1500147BAE /* AppDelegateReadme.md */,
+				7192332120A8205000735249 /* AppDelegate.h */,
+				7192332220A8205000735249 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7192332420A820EC00735249 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				71DB203420A82E2E00147BAE /* HeaderReadme.md */,
+				7192332520A820F600735249 /* PrefixHeader.pch */,
+				7192332620A8210700735249 /* ImportHeader.h */,
+				7192332720A8212100735249 /* DefineHeader.h */,
+				71E269FA20B503830002B24A /* AttributeHeader.h */,
+				71ED752A20CAAC90009B5CD5 /* ControlHeader.h */,
+				71DCFACC20A93E6100DF0FAB /* WZZDefineTool.h */,
+				7192333920A8251100735249 /* WZZPCHExtern.h */,
+				7192333A20A8251100735249 /* WZZPCHExtern.m */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		7192332820A8227C00735249 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				71DB203720A82FCD00147BAE /* BaseClassReadme.md */,
+				7192332920A8227C00735249 /* TabbarVC */,
+				7192332A20A8227C00735249 /* BaseVC */,
+				7192332B20A8227C00735249 /* BaseNVC */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		7192332920A8227C00735249 /* TabbarVC */ = {
+			isa = PBXGroup;
+			children = (
+				71DB203820A82FF900147BAE /* WZZTabbarVC.h */,
+				71DB203920A82FF900147BAE /* WZZTabbarVC.m */,
+			);
+			path = TabbarVC;
+			sourceTree = "<group>";
+		};
+		7192332A20A8227C00735249 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				7192333120A8236C00735249 /* WZZBaseVC.h */,
+				7192333220A8236C00735249 /* WZZBaseVC.m */,
+				71A7E80220BD49590069920C /* View */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		7192332B20A8227C00735249 /* BaseNVC */ = {
+			isa = PBXGroup;
+			children = (
+				7192333620A8239100735249 /* WZZBaseNVC.h */,
+				7192333720A8239100735249 /* WZZBaseNVC.m */,
+			);
+			path = BaseNVC;
+			sourceTree = "<group>";
+		};
+		7198807420D1310800ABA2F1 /* WZZUserInfoObject */ = {
+			isa = PBXGroup;
+			children = (
+				7198807920D1312800ABA2F1 /* WZZUserInfoObject.h */,
+				7198807A20D1312800ABA2F1 /* WZZUserInfoObject.m */,
+			);
+			path = WZZUserInfoObject;
+			sourceTree = "<group>";
+		};
+		7198807520D1310900ABA2F1 /* WZZSingleManager */ = {
+			isa = PBXGroup;
+			children = (
+				7198807620D1311900ABA2F1 /* WZZSingleManager.h */,
+				7198807720D1311900ABA2F1 /* WZZSingleManager.m */,
+			);
+			path = WZZSingleManager;
+			sourceTree = "<group>";
+		};
+		71A7E80220BD49590069920C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71A7E80320BD496D0069920C /* WZZBaseNVCItemView.h */,
+				71A7E80420BD496D0069920C /* WZZBaseNVCItemView.m */,
+				71BEE948214226B700470421 /* WZZBaseNVCAutoItemView.h */,
+				71BEE949214226B700470421 /* WZZBaseNVCAutoItemView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71DD311F2137899D00BCEB3C /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				71DD3120213789EE00BCEB3C /* NSString+WZZRegular.h */,
+				71DD3121213789EE00BCEB3C /* NSString+WZZRegular.m */,
+			);
+			path = Categary;
+			sourceTree = "<group>";
+		};
+		71F65AF02136FD370017788A /* LogTool */ = {
+			isa = PBXGroup;
+			children = (
+				71DD311C213784E400BCEB3C /* logMove@2x.png */,
+				71DD311B213784E400BCEB3C /* logMove@3x.png */,
+				71F65AF12136FD5B0017788A /* WZZLogTool.h */,
+				71F65AF22136FD5B0017788A /* WZZLogTool.m */,
+				71B4B1FF213704A100D309BB /* WZZLogView.h */,
+				71B4B200213704A100D309BB /* WZZLogView.m */,
+				71B4B202213704AA00D309BB /* WZZLogView.xib */,
+			);
+			path = LogTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719232DE20A81DE500735249 /* WZZViewToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7192330B20A81DE500735249 /* Build configuration list for PBXNativeTarget "WZZViewToolDemo" */;
+			buildPhases = (
+				719232DB20A81DE500735249 /* Sources */,
+				719232DC20A81DE500735249 /* Frameworks */,
+				719232DD20A81DE500735249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZZViewToolDemo;
+			productName = WZZViewToolDemo;
+			productReference = 719232DF20A81DE500735249 /* WZZViewToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		719232F620A81DE500735249 /* WZZViewToolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7192330E20A81DE500735249 /* Build configuration list for PBXNativeTarget "WZZViewToolDemoTests" */;
+			buildPhases = (
+				719232F320A81DE500735249 /* Sources */,
+				719232F420A81DE500735249 /* Frameworks */,
+				719232F520A81DE500735249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719232F920A81DE500735249 /* PBXTargetDependency */,
+			);
+			name = WZZViewToolDemoTests;
+			productName = WZZViewToolDemoTests;
+			productReference = 719232F720A81DE500735249 /* WZZViewToolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7192330120A81DE500735249 /* WZZViewToolDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7192331120A81DE500735249 /* Build configuration list for PBXNativeTarget "WZZViewToolDemoUITests" */;
+			buildPhases = (
+				719232FE20A81DE500735249 /* Sources */,
+				719232FF20A81DE500735249 /* Frameworks */,
+				7192330020A81DE500735249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7192330420A81DE500735249 /* PBXTargetDependency */,
+			);
+			name = WZZViewToolDemoUITests;
+			productName = WZZViewToolDemoUITests;
+			productReference = 7192330220A81DE500735249 /* WZZViewToolDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		719232D720A81DE500735249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "王泽众";
+				TargetAttributes = {
+					719232DE20A81DE500735249 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					719232F620A81DE500735249 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 719232DE20A81DE500735249;
+					};
+					7192330120A81DE500735249 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 719232DE20A81DE500735249;
+					};
+				};
+			};
+			buildConfigurationList = 719232DA20A81DE500735249 /* Build configuration list for PBXProject "WZZViewToolDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 719232D620A81DE500735249;
+			productRefGroup = 719232E020A81DE500735249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719232DE20A81DE500735249 /* WZZViewToolDemo */,
+				719232F620A81DE500735249 /* WZZViewToolDemoTests */,
+				7192330120A81DE500735249 /* WZZViewToolDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719232DD20A81DE500735249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DD311D213784E500BCEB3C /* logMove@3x.png in Resources */,
+				71DCFAD220A949E200DF0FAB /* tmpViewController.xib in Resources */,
+				71DD311E213784E500BCEB3C /* logMove@2x.png in Resources */,
+				7165FAA7216CA3B100AFD180 /* SafeAreaDemoVC.xib in Resources */,
+				719232EC20A81DE500735249 /* Assets.xcassets in Resources */,
+				04EA58DC21C3772E005AEC5C /* WZZTmpView.xib in Resources */,
+				71B4B203213704AA00D309BB /* WZZLogView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719232F520A81DE500735249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7192330020A81DE500735249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719232DB20A81DE500735249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7165FAA6216CA3B100AFD180 /* SafeAreaDemoVC.m in Sources */,
+				71012D2F20DE12F200B4EE8C /* HttpHandler+WZZExt.m in Sources */,
+				52A011A4228E4AEC001BCB47 /* WZZBaseImageView.m in Sources */,
+				71DCFAD120A949E200DF0FAB /* tmpViewController.m in Sources */,
+				7198807B20D1312800ABA2F1 /* WZZUserInfoObject.m in Sources */,
+				7192333820A8239100735249 /* WZZBaseNVC.m in Sources */,
+				7192331D20A81FDE00735249 /* main.m in Sources */,
+				7192333B20A8251100735249 /* WZZPCHExtern.m in Sources */,
+				52A011A1228E4AEC001BCB47 /* WZZBaseView.m in Sources */,
+				7192333420A8236C00735249 /* WZZBaseVC.m in Sources */,
+				71F65AF32136FD5B0017788A /* WZZLogTool.m in Sources */,
+				52A011A6228E4AEC001BCB47 /* UIView+WZZSubviewAction.m in Sources */,
+				528E85E122CB8D380012B807 /* WZZBaseTool.m in Sources */,
+				52A011A0228E4AEC001BCB47 /* WZZBaseButton.m in Sources */,
+				04EA58DA21C37721005AEC5C /* WZZTmpView.m in Sources */,
+				71012D3320DE21A100B4EE8C /* WZZShareManager.m in Sources */,
+				71012D2C20DE12C900B4EE8C /* HttpHandler.m in Sources */,
+				71DB203A20A82FF900147BAE /* WZZTabbarVC.m in Sources */,
+				71A7E80520BD496D0069920C /* WZZBaseNVCItemView.m in Sources */,
+				52A011A2228E4AEC001BCB47 /* WZZBaseLabel.m in Sources */,
+				71B4B201213704A100D309BB /* WZZLogView.m in Sources */,
+				52A0119F228E4AEC001BCB47 /* UIView+WZZLoading.m in Sources */,
+				7198807820D1311900ABA2F1 /* WZZSingleManager.m in Sources */,
+				52A011A5228E4AEC001BCB47 /* UIView+WZZAnimation.m in Sources */,
+				52A011A3228E4AEC001BCB47 /* WZZSuperXibView.m in Sources */,
+				71BEE94A214226B700470421 /* WZZBaseNVCAutoItemView.m in Sources */,
+				7192332320A8205000735249 /* AppDelegate.m in Sources */,
+				71DD3122213789EE00BCEB3C /* NSString+WZZRegular.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719232F320A81DE500735249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719232FC20A81DE500735249 /* WZZViewToolDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719232FE20A81DE500735249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7192330720A81DE500735249 /* WZZViewToolDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		719232F920A81DE500735249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719232DE20A81DE500735249 /* WZZViewToolDemo */;
+			targetProxy = 719232F820A81DE500735249 /* PBXContainerItemProxy */;
+		};
+		7192330420A81DE500735249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719232DE20A81DE500735249 /* WZZViewToolDemo */;
+			targetProxy = 7192330320A81DE500735249 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7192330920A81DE500735249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7192330A20A81DE500735249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7192330C20A81DE500735249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMLKLDG682;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WZZViewToolDemo/BaseClass/Headers/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+					"DEF_DEBUG=1",
+				);
+				INFOPLIST_FILE = WZZViewToolDemo/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.fff333;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7192330D20A81DE500735249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMLKLDG682;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WZZViewToolDemo/BaseClass/Headers/PrefixHeader.pch";
+				INFOPLIST_FILE = WZZViewToolDemo/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.fff333;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7192330F20A81DE500735249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZViewToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZViewToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZZViewToolDemo.app/WZZViewToolDemo";
+			};
+			name = Debug;
+		};
+		7192331020A81DE500735249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZViewToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZViewToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZZViewToolDemo.app/WZZViewToolDemo";
+			};
+			name = Release;
+		};
+		7192331220A81DE500735249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZViewToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZViewToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WZZViewToolDemo;
+			};
+			name = Debug;
+		};
+		7192331320A81DE500735249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZViewToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZViewToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WZZViewToolDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		719232DA20A81DE500735249 /* Build configuration list for PBXProject "WZZViewToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7192330920A81DE500735249 /* Debug */,
+				7192330A20A81DE500735249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7192330B20A81DE500735249 /* Build configuration list for PBXNativeTarget "WZZViewToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7192330C20A81DE500735249 /* Debug */,
+				7192330D20A81DE500735249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7192330E20A81DE500735249 /* Build configuration list for PBXNativeTarget "WZZViewToolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7192330F20A81DE500735249 /* Debug */,
+				7192331020A81DE500735249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7192331120A81DE500735249 /* Build configuration list for PBXNativeTarget "WZZViewToolDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7192331220A81DE500735249 /* Debug */,
+				7192331320A81DE500735249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 719232D720A81DE500735249 /* Project object */;
+}

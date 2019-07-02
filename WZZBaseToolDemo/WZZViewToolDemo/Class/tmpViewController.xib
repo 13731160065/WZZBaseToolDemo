@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="tmpViewController">
+            <connections>
+                <outlet property="rightLabel" destination="I1y-O3-Lib" id="QiX-NC-prM"/>
+                <outlet property="topLabel" destination="NWa-Uv-5U0" id="InC-tS-K1a"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BG5-Tm-qfv">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="0JR-Za-iKK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWa-Uv-5U0">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="pCj-de-I7H"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4GA-FM-mmj" customClass="WZZBaseLabel">
+                    <rect key="frame" x="0.0" y="50" width="50" height="567"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="mpy-3f-hIW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1y-O3-Lib" customClass="WZZBaseLabel">
+                    <rect key="frame" x="325" y="50" width="50" height="567"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="edI-2c-n3D"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3T8-zl-Kqp">
+                    <rect key="frame" x="172" y="318.5" width="31" height="30"/>
+                    <state key="normal" title="跳转"/>
+                    <connections>
+                        <action selector="next:" destination="-1" eventType="touchUpInside" id="sjB-95-N6D"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vf3-OZ-vZr">
+                    <rect key="frame" x="164.5" y="356.5" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="VbR-Ko-DGm"/>
+                        <constraint firstAttribute="height" constant="30" id="dLX-4t-O1k"/>
+                    </constraints>
+                    <state key="normal" title="测试"/>
+                    <connections>
+                        <action selector="test:" destination="-1" eventType="touchUpInside" id="yNc-VF-6ja"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dil-lT-CUf" customClass="WZZTmpView">
+                    <rect key="frame" x="50" y="50" width="275" height="60"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="esX-VU-1Tm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="I1y-O3-Lib" firstAttribute="top" secondItem="NWa-Uv-5U0" secondAttribute="bottom" id="8km-7o-Y7l"/>
+                <constraint firstItem="BG5-Tm-qfv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ABT-xh-eEp"/>
+                <constraint firstItem="BG5-Tm-qfv" firstAttribute="top" secondItem="4GA-FM-mmj" secondAttribute="bottom" id="EG1-XH-p1y"/>
+                <constraint firstItem="3T8-zl-Kqp" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="H8g-Rl-FRc"/>
+                <constraint firstItem="dil-lT-CUf" firstAttribute="top" secondItem="NWa-Uv-5U0" secondAttribute="bottom" id="HTu-HG-444"/>
+                <constraint firstItem="BG5-Tm-qfv" firstAttribute="top" secondItem="I1y-O3-Lib" secondAttribute="bottom" id="J02-e7-gs9"/>
+                <constraint firstItem="4GA-FM-mmj" firstAttribute="top" secondItem="NWa-Uv-5U0" secondAttribute="bottom" id="RZd-Q8-Xaw"/>
+                <constraint firstItem="NWa-Uv-5U0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="TZ1-c9-P7d"/>
+                <constraint firstItem="NWa-Uv-5U0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Tu6-9e-ARy"/>
+                <constraint firstItem="vf3-OZ-vZr" firstAttribute="centerX" secondItem="3T8-zl-Kqp" secondAttribute="centerX" id="URY-ln-Bz8"/>
+                <constraint firstAttribute="trailing" secondItem="BG5-Tm-qfv" secondAttribute="trailing" id="Wb1-L4-sHM"/>
+                <constraint firstItem="dil-lT-CUf" firstAttribute="leading" secondItem="4GA-FM-mmj" secondAttribute="trailing" id="bH7-U9-KqF"/>
+                <constraint firstAttribute="trailing" secondItem="NWa-Uv-5U0" secondAttribute="trailing" id="ba2-Y1-HvF"/>
+                <constraint firstItem="BG5-Tm-qfv" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="bjh-8c-Qmg"/>
+                <constraint firstItem="4GA-FM-mmj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bsj-8p-CKW"/>
+                <constraint firstItem="I1y-O3-Lib" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="e8t-Jd-v52"/>
+                <constraint firstItem="vf3-OZ-vZr" firstAttribute="top" secondItem="3T8-zl-Kqp" secondAttribute="bottom" constant="8" id="f57-Gb-5Yw"/>
+                <constraint firstItem="3T8-zl-Kqp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nxQ-IV-73l"/>
+                <constraint firstItem="I1y-O3-Lib" firstAttribute="leading" secondItem="dil-lT-CUf" secondAttribute="trailing" id="pv2-yL-5Ng"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>
+        </view>
+    </objects>
+</document>
