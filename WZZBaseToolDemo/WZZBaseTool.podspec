@@ -17,15 +17,15 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WZZBaseTool"
-  s.version      = "1.0.0"
-  s.summary      = "WZZBaseTool是一个视图工具集合"
+  s.version      = "1.0.1"
+  s.summary      = "WZZBaseTool是一个基础工具集合"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "WZZBaseTool是一个视图工具集合，方便快速接入开发"
+  s.description  = "WZZBaseTool是一个基础工具集合，方便快速接入开发"
 
   s.homepage     = "https://github.com/13731160065/WZZBaseToolDemo"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"

@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		04EA58DA21C37721005AEC5C /* WZZTmpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA58D921C37721005AEC5C /* WZZTmpView.m */; };
 		04EA58DC21C3772E005AEC5C /* WZZTmpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EA58DB21C3772E005AEC5C /* WZZTmpView.xib */; };
-		528E85E122CB8D380012B807 /* WZZBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E85E022CB8D380012B807 /* WZZBaseTool.m */; };
-		52A0119F228E4AEC001BCB47 /* UIView+WZZLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0118C228E4AEC001BCB47 /* UIView+WZZLoading.m */; };
-		52A011A0228E4AEC001BCB47 /* WZZBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0118F228E4AEC001BCB47 /* WZZBaseButton.m */; };
-		52A011A1228E4AEC001BCB47 /* WZZBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A01190228E4AEC001BCB47 /* WZZBaseView.m */; };
-		52A011A2228E4AEC001BCB47 /* WZZBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A01191228E4AEC001BCB47 /* WZZBaseLabel.m */; };
-		52A011A3228E4AEC001BCB47 /* WZZSuperXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A01193228E4AEC001BCB47 /* WZZSuperXibView.m */; };
-		52A011A4228E4AEC001BCB47 /* WZZBaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A01197228E4AEC001BCB47 /* WZZBaseImageView.m */; };
-		52A011A5228E4AEC001BCB47 /* UIView+WZZAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0119B228E4AEC001BCB47 /* UIView+WZZAnimation.m */; };
-		52A011A6228E4AEC001BCB47 /* UIView+WZZSubviewAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0119E228E4AEC001BCB47 /* UIView+WZZSubviewAction.m */; };
+		528E85FA22CB9C4C0012B807 /* WZZBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E85E522CB9C4B0012B807 /* WZZBaseTool.m */; };
+		528E85FB22CB9C4C0012B807 /* UIView+WZZLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E85E722CB9C4B0012B807 /* UIView+WZZLoading.m */; };
+		528E85FC22CB9C4C0012B807 /* WZZBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E85EA22CB9C4B0012B807 /* WZZBaseButton.m */; };
+		528E85FD22CB9C4C0012B807 /* WZZBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E85EB22CB9C4B0012B807 /* WZZBaseView.m */; };
+		528E85FE22CB9C4C0012B807 /* WZZBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E85EC22CB9C4B0012B807 /* WZZBaseLabel.m */; };
+		528E85FF22CB9C4C0012B807 /* WZZSuperXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E85EE22CB9C4B0012B807 /* WZZSuperXibView.m */; };
+		528E860022CB9C4C0012B807 /* WZZBaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E85F222CB9C4B0012B807 /* WZZBaseImageView.m */; };
+		528E860122CB9C4C0012B807 /* UIView+WZZAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E85F622CB9C4B0012B807 /* UIView+WZZAnimation.m */; };
+		528E860222CB9C4C0012B807 /* UIView+WZZSubviewAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 528E85F922CB9C4B0012B807 /* UIView+WZZSubviewAction.m */; };
 		71012D2C20DE12C900B4EE8C /* HttpHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 71012D2B20DE12C900B4EE8C /* HttpHandler.m */; };
 		71012D2F20DE12F200B4EE8C /* HttpHandler+WZZExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 71012D2E20DE12F200B4EE8C /* HttpHandler+WZZExt.m */; };
 		71012D3320DE21A100B4EE8C /* WZZShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71012D3220DE21A100B4EE8C /* WZZShareManager.m */; };
@@ -67,24 +67,24 @@
 		04EA58D821C37721005AEC5C /* WZZTmpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZTmpView.h; sourceTree = "<group>"; };
 		04EA58D921C37721005AEC5C /* WZZTmpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZTmpView.m; sourceTree = "<group>"; };
 		04EA58DB21C3772E005AEC5C /* WZZTmpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WZZTmpView.xib; sourceTree = "<group>"; };
-		528E85DF22CB8D380012B807 /* WZZBaseTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZZBaseTool.h; sourceTree = "<group>"; };
-		528E85E022CB8D380012B807 /* WZZBaseTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZBaseTool.m; sourceTree = "<group>"; };
-		52A0118C228E4AEC001BCB47 /* UIView+WZZLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZZLoading.m"; sourceTree = "<group>"; };
-		52A0118D228E4AEC001BCB47 /* UIView+WZZLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZZLoading.h"; sourceTree = "<group>"; };
-		52A0118F228E4AEC001BCB47 /* WZZBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseButton.m; sourceTree = "<group>"; };
-		52A01190228E4AEC001BCB47 /* WZZBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseView.m; sourceTree = "<group>"; };
-		52A01191228E4AEC001BCB47 /* WZZBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseLabel.m; sourceTree = "<group>"; };
-		52A01192228E4AEC001BCB47 /* WZZBaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseImageView.h; sourceTree = "<group>"; };
-		52A01193228E4AEC001BCB47 /* WZZSuperXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZSuperXibView.m; sourceTree = "<group>"; };
-		52A01194228E4AEC001BCB47 /* WZZBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseView.h; sourceTree = "<group>"; };
-		52A01195228E4AEC001BCB47 /* WZZBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseButton.h; sourceTree = "<group>"; };
-		52A01196228E4AEC001BCB47 /* WZZSuperXibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZSuperXibView.h; sourceTree = "<group>"; };
-		52A01197228E4AEC001BCB47 /* WZZBaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseImageView.m; sourceTree = "<group>"; };
-		52A01198228E4AEC001BCB47 /* WZZBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseLabel.h; sourceTree = "<group>"; };
-		52A0119A228E4AEC001BCB47 /* UIView+WZZAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZZAnimation.h"; sourceTree = "<group>"; };
-		52A0119B228E4AEC001BCB47 /* UIView+WZZAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZZAnimation.m"; sourceTree = "<group>"; };
-		52A0119D228E4AEC001BCB47 /* UIView+WZZSubviewAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZZSubviewAction.h"; sourceTree = "<group>"; };
-		52A0119E228E4AEC001BCB47 /* UIView+WZZSubviewAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZZSubviewAction.m"; sourceTree = "<group>"; };
+		528E85E422CB9C4B0012B807 /* WZZBaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseTool.h; sourceTree = "<group>"; };
+		528E85E522CB9C4B0012B807 /* WZZBaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseTool.m; sourceTree = "<group>"; };
+		528E85E722CB9C4B0012B807 /* UIView+WZZLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZZLoading.m"; sourceTree = "<group>"; };
+		528E85E822CB9C4B0012B807 /* UIView+WZZLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZZLoading.h"; sourceTree = "<group>"; };
+		528E85EA22CB9C4B0012B807 /* WZZBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseButton.m; sourceTree = "<group>"; };
+		528E85EB22CB9C4B0012B807 /* WZZBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseView.m; sourceTree = "<group>"; };
+		528E85EC22CB9C4B0012B807 /* WZZBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseLabel.m; sourceTree = "<group>"; };
+		528E85ED22CB9C4B0012B807 /* WZZBaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseImageView.h; sourceTree = "<group>"; };
+		528E85EE22CB9C4B0012B807 /* WZZSuperXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZSuperXibView.m; sourceTree = "<group>"; };
+		528E85EF22CB9C4B0012B807 /* WZZBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseView.h; sourceTree = "<group>"; };
+		528E85F022CB9C4B0012B807 /* WZZBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseButton.h; sourceTree = "<group>"; };
+		528E85F122CB9C4B0012B807 /* WZZSuperXibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZSuperXibView.h; sourceTree = "<group>"; };
+		528E85F222CB9C4B0012B807 /* WZZBaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBaseImageView.m; sourceTree = "<group>"; };
+		528E85F322CB9C4B0012B807 /* WZZBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBaseLabel.h; sourceTree = "<group>"; };
+		528E85F522CB9C4B0012B807 /* UIView+WZZAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZZAnimation.h"; sourceTree = "<group>"; };
+		528E85F622CB9C4B0012B807 /* UIView+WZZAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZZAnimation.m"; sourceTree = "<group>"; };
+		528E85F822CB9C4B0012B807 /* UIView+WZZSubviewAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZZSubviewAction.h"; sourceTree = "<group>"; };
+		528E85F922CB9C4B0012B807 /* UIView+WZZSubviewAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZZSubviewAction.m"; sourceTree = "<group>"; };
 		71012D2A20DE12C900B4EE8C /* HttpHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpHandler.h; sourceTree = "<group>"; };
 		71012D2B20DE12C900B4EE8C /* HttpHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpHandler.m; sourceTree = "<group>"; };
 		71012D2D20DE12F200B4EE8C /* HttpHandler+WZZExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HttpHandler+WZZExt.h"; sourceTree = "<group>"; };
@@ -174,67 +174,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		528E85DE22CB8D280012B807 /* BaseTool */ = {
+		528E85E222CB9C4B0012B807 /* WZZBaseTool */ = {
 			isa = PBXGroup;
 			children = (
-				528E85DF22CB8D380012B807 /* WZZBaseTool.h */,
-				528E85E022CB8D380012B807 /* WZZBaseTool.m */,
+				528E85E322CB9C4B0012B807 /* BaseTool */,
+				528E85E622CB9C4B0012B807 /* Loading */,
+				528E85E922CB9C4B0012B807 /* BaseView */,
+				528E85F422CB9C4B0012B807 /* Animation */,
+				528E85F722CB9C4B0012B807 /* AOP */,
+			);
+			path = WZZBaseTool;
+			sourceTree = SOURCE_ROOT;
+		};
+		528E85E322CB9C4B0012B807 /* BaseTool */ = {
+			isa = PBXGroup;
+			children = (
+				528E85E422CB9C4B0012B807 /* WZZBaseTool.h */,
+				528E85E522CB9C4B0012B807 /* WZZBaseTool.m */,
 			);
 			path = BaseTool;
 			sourceTree = "<group>";
 		};
-		52A0118A228E4AEC001BCB47 /* WZZViewTool */ = {
+		528E85E622CB9C4B0012B807 /* Loading */ = {
 			isa = PBXGroup;
 			children = (
-				528E85DE22CB8D280012B807 /* BaseTool */,
-				52A0118B228E4AEC001BCB47 /* Loading */,
-				52A0118E228E4AEC001BCB47 /* BaseView */,
-				52A01199228E4AEC001BCB47 /* Animation */,
-				52A0119C228E4AEC001BCB47 /* AOP */,
-			);
-			path = WZZViewTool;
-			sourceTree = "<group>";
-		};
-		52A0118B228E4AEC001BCB47 /* Loading */ = {
-			isa = PBXGroup;
-			children = (
-				52A0118D228E4AEC001BCB47 /* UIView+WZZLoading.h */,
-				52A0118C228E4AEC001BCB47 /* UIView+WZZLoading.m */,
+				528E85E722CB9C4B0012B807 /* UIView+WZZLoading.m */,
+				528E85E822CB9C4B0012B807 /* UIView+WZZLoading.h */,
 			);
 			path = Loading;
 			sourceTree = "<group>";
 		};
-		52A0118E228E4AEC001BCB47 /* BaseView */ = {
+		528E85E922CB9C4B0012B807 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
-				52A01194228E4AEC001BCB47 /* WZZBaseView.h */,
-				52A01190228E4AEC001BCB47 /* WZZBaseView.m */,
-				52A01198228E4AEC001BCB47 /* WZZBaseLabel.h */,
-				52A01191228E4AEC001BCB47 /* WZZBaseLabel.m */,
-				52A01195228E4AEC001BCB47 /* WZZBaseButton.h */,
-				52A0118F228E4AEC001BCB47 /* WZZBaseButton.m */,
-				52A01192228E4AEC001BCB47 /* WZZBaseImageView.h */,
-				52A01197228E4AEC001BCB47 /* WZZBaseImageView.m */,
-				52A01196228E4AEC001BCB47 /* WZZSuperXibView.h */,
-				52A01193228E4AEC001BCB47 /* WZZSuperXibView.m */,
+				528E85EF22CB9C4B0012B807 /* WZZBaseView.h */,
+				528E85EB22CB9C4B0012B807 /* WZZBaseView.m */,
+				528E85F022CB9C4B0012B807 /* WZZBaseButton.h */,
+				528E85EA22CB9C4B0012B807 /* WZZBaseButton.m */,
+				528E85F322CB9C4B0012B807 /* WZZBaseLabel.h */,
+				528E85EC22CB9C4B0012B807 /* WZZBaseLabel.m */,
+				528E85ED22CB9C4B0012B807 /* WZZBaseImageView.h */,
+				528E85F222CB9C4B0012B807 /* WZZBaseImageView.m */,
+				528E85F122CB9C4B0012B807 /* WZZSuperXibView.h */,
+				528E85EE22CB9C4B0012B807 /* WZZSuperXibView.m */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
 		};
-		52A01199228E4AEC001BCB47 /* Animation */ = {
+		528E85F422CB9C4B0012B807 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				52A0119A228E4AEC001BCB47 /* UIView+WZZAnimation.h */,
-				52A0119B228E4AEC001BCB47 /* UIView+WZZAnimation.m */,
+				528E85F522CB9C4B0012B807 /* UIView+WZZAnimation.h */,
+				528E85F622CB9C4B0012B807 /* UIView+WZZAnimation.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
 		};
-		52A0119C228E4AEC001BCB47 /* AOP */ = {
+		528E85F722CB9C4B0012B807 /* AOP */ = {
 			isa = PBXGroup;
 			children = (
-				52A0119D228E4AEC001BCB47 /* UIView+WZZSubviewAction.h */,
-				52A0119E228E4AEC001BCB47 /* UIView+WZZSubviewAction.m */,
+				528E85F822CB9C4B0012B807 /* UIView+WZZSubviewAction.h */,
+				528E85F922CB9C4B0012B807 /* UIView+WZZSubviewAction.m */,
 			);
 			path = AOP;
 			sourceTree = "<group>";
@@ -262,7 +262,6 @@
 		719232D620A81DE500735249 = {
 			isa = PBXGroup;
 			children = (
-				52A0118A228E4AEC001BCB47 /* WZZViewTool */,
 				719232E120A81DE500735249 /* WZZViewToolDemo */,
 				719232FA20A81DE500735249 /* WZZViewToolDemoTests */,
 				7192330520A81DE500735249 /* WZZViewToolDemoUITests */,
@@ -283,6 +282,7 @@
 		719232E120A81DE500735249 /* WZZViewToolDemo */ = {
 			isa = PBXGroup;
 			children = (
+				528E85E222CB9C4B0012B807 /* WZZBaseTool */,
 				7192331820A81FDD00735249 /* BaseClass */,
 				7192331C20A81FDE00735249 /* Class */,
 				7192331B20A81FDE00735249 /* Libs */,
@@ -624,33 +624,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528E85FD22CB9C4C0012B807 /* WZZBaseView.m in Sources */,
 				7165FAA6216CA3B100AFD180 /* SafeAreaDemoVC.m in Sources */,
 				71012D2F20DE12F200B4EE8C /* HttpHandler+WZZExt.m in Sources */,
-				52A011A4228E4AEC001BCB47 /* WZZBaseImageView.m in Sources */,
 				71DCFAD120A949E200DF0FAB /* tmpViewController.m in Sources */,
 				7198807B20D1312800ABA2F1 /* WZZUserInfoObject.m in Sources */,
+				528E85FF22CB9C4C0012B807 /* WZZSuperXibView.m in Sources */,
+				528E860122CB9C4C0012B807 /* UIView+WZZAnimation.m in Sources */,
 				7192333820A8239100735249 /* WZZBaseNVC.m in Sources */,
 				7192331D20A81FDE00735249 /* main.m in Sources */,
+				528E85FE22CB9C4C0012B807 /* WZZBaseLabel.m in Sources */,
 				7192333B20A8251100735249 /* WZZPCHExtern.m in Sources */,
-				52A011A1228E4AEC001BCB47 /* WZZBaseView.m in Sources */,
 				7192333420A8236C00735249 /* WZZBaseVC.m in Sources */,
+				528E85FC22CB9C4C0012B807 /* WZZBaseButton.m in Sources */,
 				71F65AF32136FD5B0017788A /* WZZLogTool.m in Sources */,
-				52A011A6228E4AEC001BCB47 /* UIView+WZZSubviewAction.m in Sources */,
-				528E85E122CB8D380012B807 /* WZZBaseTool.m in Sources */,
-				52A011A0228E4AEC001BCB47 /* WZZBaseButton.m in Sources */,
 				04EA58DA21C37721005AEC5C /* WZZTmpView.m in Sources */,
 				71012D3320DE21A100B4EE8C /* WZZShareManager.m in Sources */,
 				71012D2C20DE12C900B4EE8C /* HttpHandler.m in Sources */,
+				528E85FA22CB9C4C0012B807 /* WZZBaseTool.m in Sources */,
+				528E860022CB9C4C0012B807 /* WZZBaseImageView.m in Sources */,
 				71DB203A20A82FF900147BAE /* WZZTabbarVC.m in Sources */,
+				528E85FB22CB9C4C0012B807 /* UIView+WZZLoading.m in Sources */,
 				71A7E80520BD496D0069920C /* WZZBaseNVCItemView.m in Sources */,
-				52A011A2228E4AEC001BCB47 /* WZZBaseLabel.m in Sources */,
 				71B4B201213704A100D309BB /* WZZLogView.m in Sources */,
-				52A0119F228E4AEC001BCB47 /* UIView+WZZLoading.m in Sources */,
 				7198807820D1311900ABA2F1 /* WZZSingleManager.m in Sources */,
-				52A011A5228E4AEC001BCB47 /* UIView+WZZAnimation.m in Sources */,
-				52A011A3228E4AEC001BCB47 /* WZZSuperXibView.m in Sources */,
 				71BEE94A214226B700470421 /* WZZBaseNVCAutoItemView.m in Sources */,
 				7192332320A8205000735249 /* AppDelegate.m in Sources */,
+				528E860222CB9C4C0012B807 /* UIView+WZZSubviewAction.m in Sources */,
 				71DD3122213789EE00BCEB3C /* NSString+WZZRegular.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

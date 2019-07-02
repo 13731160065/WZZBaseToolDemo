@@ -9,33 +9,32 @@
 #import "WZZBaseView.h"
 
 @implementation WZZBaseView
-
-- (void)setClip:(BOOL)clip {
-    self.clipsToBounds = clip;
+- (void)setClipw:(BOOL)clipw {
+    self.clipsToBounds = clipw;
 }
 
-- (void)setCornerRadio:(CGFloat)cornerRadio {
-    self.layer.cornerRadius = cornerRadio;
+- (void)setCornerRadiow:(CGFloat)cornerRadiow {
+    self.layer.cornerRadius = cornerRadiow;
 }
 
-- (void)setBorderWidth:(CGFloat)borderWidth {
-    self.layer.borderWidth = borderWidth;
+- (void)setBorderWidthw:(CGFloat)borderWidthw {
+    self.layer.borderWidth = borderWidthw;
 }
 
-- (void)setBorderColor:(UIColor *)borderColor {
-    self.layer.borderColor = borderColor.CGColor;
+- (void)setBorderColorw:(UIColor *)borderColorw {
+    self.layer.borderColor = borderColorw.CGColor;
 }
 
-- (void)setShadowOffset:(CGSize)shadowOffset {
-    self.layer.shadowOffset = shadowOffset;
+- (void)setShadowOffsetw:(CGSize)shadowOffsetw {
+    self.layer.shadowOffset = shadowOffsetw;
 }
 
-- (void)setShadowColor:(UIColor *)shadowColor {
-    self.layer.shadowColor = shadowColor.CGColor;
+- (void)setShadowColorw:(UIColor *)shadowColorw {
+    self.layer.shadowColor = shadowColorw.CGColor;
 }
 
-- (void)setShadowAlpha:(CGFloat)shadowAlpha {
-    self.layer.shadowOpacity = shadowAlpha;
+- (void)setShadowAlphaw:(CGFloat)shadowAlphaw {
+    self.layer.shadowOpacity = shadowAlphaw;
 }
 
 @end

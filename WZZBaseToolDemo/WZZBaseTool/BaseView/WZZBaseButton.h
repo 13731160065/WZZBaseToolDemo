@@ -13,13 +13,13 @@ IB_DESIGNABLE
 
 #pragma mark - 继承WZZBaseView
 
-@property (nonatomic, assign) IBInspectable BOOL clip;
-@property (nonatomic, assign) IBInspectable CGFloat cornerRadio;
-@property (nonatomic, assign) IBInspectable CGFloat borderWidth;
-@property (nonatomic, assign) IBInspectable UIColor * borderColor;
-@property (nonatomic, assign) IBInspectable CGSize shadowOffset;
-@property (nonatomic, assign) IBInspectable UIColor * shadowColor;
-@property (nonatomic, assign) IBInspectable CGFloat shadowAlpha;
+@property (nonatomic, assign) IBInspectable BOOL clipw;
+@property (nonatomic, assign) IBInspectable CGFloat cornerRadiow;
+@property (nonatomic, assign) IBInspectable CGFloat borderWidthw;
+@property (nonatomic, assign) IBInspectable UIColor * borderColorw;
+@property (nonatomic, assign) IBInspectable CGSize shadowOffsetw;
+@property (nonatomic, assign) IBInspectable UIColor * shadowColorw;
+@property (nonatomic, assign) IBInspectable CGFloat shadowAlphaw;
 
 #pragma mark - 特有
 
