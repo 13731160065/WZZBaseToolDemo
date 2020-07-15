@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WZZBaseTool"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "WZZBaseTool是一个基础工具集合"
 
   # This description is used to generate tags and improve search results.

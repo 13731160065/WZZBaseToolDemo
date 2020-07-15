@@ -27,7 +27,6 @@
 
 //修改包名
 - (void)changeBundleIdentifier:(NSString *)bundleId {
-    NSUserDefaults * def = [NSUserDefaults standardUserDefaults];
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         Method m1 = class_getInstanceMethod([self class], NSSelectorFromString(@"bundleIdentifier"));
